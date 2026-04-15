@@ -1,0 +1,121 @@
+Accessibility Escape Room 2026 Answer Guide
+
+Question 1 | Room 1 | Type: defect
+A photo that is important to understanding the page has no text alternative. What should be added?
+Accepted keyword phrases: alt text, alternative text, text alternative, alt
+Hint: Think about the short text a screen reader can announce for an image.
+Explanation: Important images need a text alternative so people who cannot see the image still get the same essential meaning.
+
+Question 2 | Room 1 | Type: ada_gaad
+What does ADA stand for in digital accessibility work?
+Accepted keyword phrases: americans with disabilities act, disabilities act
+Hint: It is the name of a major United States civil rights law.
+Explanation: ADA stands for Americans with Disabilities Act. It is a civil rights law often discussed alongside digital access obligations.
+
+Question 3 | Room 1 | Type: defect
+A person using only a keyboard cannot reach the main menu links. What kind of access is missing?
+Accepted keyword phrases: keyboard, keyboard access, keyboard navigation
+Hint: Answer with the input method that should work without a mouse.
+Explanation: Interactive content must be usable by keyboard alone. If menu links cannot be reached, keyboard access is broken.
+
+Question 4 | Room 2 | Type: ada_gaad
+Global Accessibility Awareness Day is mainly meant to raise awareness about access for whom?
+Accepted keyword phrases: people with disabilities, disabled people, disability, persons with disabilities
+Hint: Think about the community that digital barriers most directly shut out.
+Explanation: GAAD focuses attention on digital access and inclusion for people with disabilities and on building better experiences for everyone.
+
+Question 5 | Room 2 | Type: defect
+When a dialog opens, the keyboard focus lands behind it on the page. What is the problem called?
+Accepted keyword phrases: focus order, focus, incorrect focus order, wrong focus order
+Hint: The issue is about where keyboard attention moves next.
+Explanation: Focus should move in a logical sequence. If it lands behind the dialog, users can lose context and control.
+
+Question 6 | Room 2 | Type: ada_gaad
+On what day of the week is Global Accessibility Awareness Day observed?
+Accepted keyword phrases: thursday, third thursday
+Hint: It is observed in the work week, not on a weekend.
+Explanation: GAAD is observed on the third Thursday in May each year.
+
+Question 7 | Room 3 | Type: defect
+A text field only shows placeholder text and has no proper programmatic name. What is missing?
+Accepted keyword phrases: label, form label, field label
+Hint: Think of the text that should identify the purpose of the field even before typing begins.
+Explanation: Form controls need labels so users know what information belongs in the field and assistive technology can announce it reliably.
+
+Question 8 | Room 3 | Type: ada_gaad
+Is GAAD best described as a legal requirement or an awareness event?
+Accepted keyword phrases: awareness event, awareness day, event, awareness
+Hint: It is observed and promoted globally, but it is not itself a statute.
+Explanation: GAAD is an awareness event, not a law. It encourages conversation and action around digital accessibility.
+
+Question 9 | Room 3 | Type: defect
+A page jumps from a level one heading straight to level four with no structure in between. What is the issue?
+Accepted keyword phrases: heading structure, headings, heading levels, heading order
+Hint: This is about how page sections are organized for navigation.
+Explanation: Heading levels should reflect a logical structure so screen reader and keyboard users can understand and navigate the content hierarchy.
+
+Question 10 | Room 3 | Type: ada_gaad
+What broad civil rights idea is at the heart of accessibility work: exclusion or equal access?
+Accepted keyword phrases: equal access, access, equality, inclusion
+Hint: Choose the principle that opens doors rather than closing them.
+Explanation: Accessibility work is grounded in equal access and inclusion, not exclusion.
+
+Question 11 | Room 4 | Type: defect
+Several links on a page say only “click here.” What needs to improve?
+Accepted keyword phrases: link text, descriptive links, descriptive link text, links
+Hint: Users should know the destination or action without guessing.
+Explanation: Links should be descriptive so users can understand where they go or what they do, especially when navigating by links alone.
+
+Question 12 | Room 4 | Type: ada_gaad
+The ADA is a United States civil rights law. Who does it protect in this context?
+Accepted keyword phrases: people with disabilities, disabled people, persons with disabilities, disabilities
+Hint: Answer with the population whose civil rights are being protected.
+Explanation: The ADA protects people with disabilities from discrimination, including barriers that affect equal participation.
+
+Question 13 | Room 4 | Type: defect
+Light gray text on a white background is hard to read. What accessibility issue does that describe?
+Accepted keyword phrases: color contrast, contrast, low contrast
+Hint: This issue affects how strongly text stands apart from its background.
+Explanation: Sufficient color contrast helps people read text more easily, including many users with low vision.
+
+Question 14 | Room 5 | Type: ada_gaad
+What month is Global Accessibility Awareness Day observed in?
+Accepted keyword phrases: may
+Hint: It is in late spring in the Northern Hemisphere.
+Explanation: GAAD is observed in May each year.
+
+Question 15 | Room 5 | Type: defect
+A video includes speech but no synchronized text version of the spoken words. What is missing?
+Accepted keyword phrases: captions, closed captions, captioning, caption
+Hint: Think about text that appears in time with the audio.
+Explanation: Captions provide synchronized text for spoken content and other meaningful audio information in video.
+
+Question 16 | Room 5 | Type: ada_gaad
+What is one good outcome of GAAD inside an organization: silence or conversation?
+Accepted keyword phrases: conversation, discussion, awareness, talk
+Hint: It encourages people to notice barriers and speak about them.
+Explanation: GAAD helps create conversation and awareness, which often leads to action and better digital experiences.
+
+Question 17 | Room 6 | Type: defect
+A developer adds ARIA to a native button in a way that overrides correct built-in semantics and creates confusion. What kind of issue is this?
+Accepted keyword phrases: aria misuse, incorrect aria, bad aria, aria
+Hint: The problem comes from using accessibility code in the wrong way.
+Explanation: ARIA misuse can break or confuse accessibility. Native HTML semantics should be used correctly before adding ARIA.
+
+Question 18 | Room 6 | Type: ada_gaad
+Accessibility is best handled at the end of a project or throughout the process?
+Accepted keyword phrases: throughout, throughout the process, from the beginning, start
+Hint: The best answer points to early and continuous inclusion.
+Explanation: Accessibility is most effective when built in from the beginning and maintained throughout the process.
+
+Question 19 | Room 6 | Type: defect
+A form shows an error only in color and never tells the user in text what went wrong. What issue does this create?
+Accepted keyword phrases: error identification, error message, form errors, errors
+Hint: The problem is about clearly telling the user that something is wrong and what to fix.
+Explanation: Users need clear error identification and helpful instructions. Color alone is not enough to communicate an error.
+
+Question 20 | Room 6 | Type: ada_gaad
+What simple phrase captures the goal of accessibility work: keep people out or let people in?
+Accepted keyword phrases: let people in, inclusion, include, access
+Hint: Choose the phrase that reflects participation and belonging.
+Explanation: Accessibility is about letting people in through inclusion, participation, and equal access.

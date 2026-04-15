@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>THE DAO: Accessibility Escape Room</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+
+    <section id="welcomeScreen" class="screen active card welcome-card" aria-labelledby="welcomeTitle">
+      <h1 id="welcomeTitle">The Accessibility Escape Room: Happy GAAD</h1>
+      <p class="lead">Six doors. Twenty questions. Answer enough questions to get through each door before the four minute timer runs out.</p>
+      <p>Questions will alternate between accessibility defects, general ADA and questions about GAAD.</p>
+      <button id="playIntroBtn" class="secondary-button">Play Intro</button>
+      <p class="welcome-hint">Start here if it's your first time</p>
+      <button id="startGameBtn" class="primary-button">Start Game</button>
+    </section>
+
+    <section id="gameScreen" class="screen" aria-live="polite" hidden>
+      <header class="top-bar card">
+        <div>
+          <p class="eyebrow">CURRENT CHALLENGE</p>
+          <h2 id="roomTitle">Room</h2>
+          <p id="roomProgress" class="muted"></p>
+<ol
+  id="roomDots"
+  class="room-dots"
+  aria-label="Escape progress through six doors"
+  role="list">
+</ol>  
+        </div>
+        <div class="timer-wrap" aria-label="Time remaining">
+          <span class="timer-label">Time left</span>
+          <span id="timer" class="timer-value">04:00</span>
+        </div>
+      </header>
+
+      <div class="room-visual">
+        <img id="roomImage" src="" alt="">
+      </div>
+
+      <section class="card controls-card">
+      </section>
+
+      <section class="card qa-card" aria-labelledby="questionHeading">
+        <div class="question-meta">
+          <p id="questionType" class="pill"></p>
+          <p id="questionCounter" class="muted"></p>
+        </div>
+        <h3 id="questionHeading">Question</h3>
+        <p id="questionText"></p>
+        <label for="answerInput">Your answer</label>
+        <input id="answerInput" type="text" autocomplete="off" disabled>
+        <div class="button-row">
+          <button id="submitAnswerBtn" class="primary-button" disabled>Submit answer</button>
+          <button id="hintBtn" class="secondary-button" disabled>Show hint</button>
+          <button id="enterRoomBtn" class="primary-button" hidden>GET US OUT OF HERE</button>
+          <button id="explanationBtn" hidden></button>
+        </div>
+        <div id="hintPanel" class="info-panel" hidden></div>
+        <div id="explanationPanel" class="info-panel explanation-panel" hidden></div>
+        <div id="feedback" class="feedback" role="status" aria-live="assertive"></div>
+      </section>
+    </section>
+
+    <section id="congratsScreen" class="screen" hidden aria-labelledby="congratsTitle"></section>
+
+  </main>
+
+  <audio id="roomAudio" preload="none"></audio>
+  <audio id="congratsAudio" preload="none" src="congrats.mp3"></audio>
+  <audio id="introAudio" preload="auto" src="intro.mp3"></audio>
+  <audio id="correctAudio" preload="none"></audio>
+  <audio id="incorrectAudio" preload="none"></audio>
+  <audio id="timeoutAudio" preload="auto" src="timeout.mp3"></audio>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
